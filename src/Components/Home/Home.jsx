@@ -3,6 +3,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import Heading from "../Heading/Heading";
 import welcomeIcon from "./../../assets/welcome.jpg"
+import Bullets from "../Bullets/Bullets";
+import ImportantDates from "../Important Dates/ImportantDates";
 
 const Home = () => {
     return (
@@ -10,13 +12,13 @@ const Home = () => {
             <div className="rounded-2xl overflow-hidden m-1 md:m-5">
                 <Carousel showArrows={true} showThumbs={false} showStatus={false} autoPlay transitionTime="500" interval="1000" infiniteLoop>
                     <div>
-                        <img src="https://marketplace.canva.com/EAFK_XV_Ht8/1/0/1600w/canva-black-typographic-retro-moon-and-astronaut-twitter-header-0NTqoXhUtsE.jpg" />
+                        <img alt="image1" src="https://marketplace.canva.com/EAFK_XV_Ht8/1/0/1600w/canva-black-typographic-retro-moon-and-astronaut-twitter-header-0NTqoXhUtsE.jpg" />
                     </div>
                     <div>
-                        <img src="https://pbs.twimg.com/media/CikwEeyXAAAMtWk.jpg" />
+                        <img alt="image2" src="https://pbs.twimg.com/media/CikwEeyXAAAMtWk.jpg" />
                     </div>
                     <div>
-                        <img src="https://pbs.twimg.com/media/DIMMk7EXkAADT11.jpg" />
+                        <img alt="image3" src="https://pbs.twimg.com/media/DIMMk7EXkAADT11.jpg" />
                     </div>
 
                 </Carousel>
@@ -33,6 +35,20 @@ const Home = () => {
                     We encourage healthy competition to enable our students to find a place in today's competitive world. For more details, http://fetrbs.org/index.aspx
                 </p>
                 <img src={welcomeIcon} alt="" className="w-1/3 mr-16"/>
+            </div>
+
+            <ImportantDates/>
+            <Bullets/>
+
+            <Heading title="ICDIS History" />
+            <div className="mx-16 grid grid-cols-2 text-left">
+                <div className="">
+                    <h2 className="text-2xl">ICDIS 2017</h2>
+                    <p><strong>First version of ICDIS</strong> was organized at Indira Gandhi National Tribal University, Amarkantak, Madhya-Pradesh, India, during November 14-15, 2017. ICDIS-2017 received around 230 submissions from around 550 authors of different countries such as India, Malaysia, Bangladesh, Sri Lanka and many more. On the basis of quality reviews, 59 high quality papers were selected for publication in two proceedings volumes, with an acceptance rate of 25.6%. All papers of ICDIS-2017 have been published in two volumes under Book Series "Lecture Notes in Networks and Systems", titled as "Advances in Data and Information Sciences".</p>
+                    <a href="https://www.springer.com/in/book/9789811083594">https://www.springer.com/in/book/9789811083594</a>
+                    <br />
+                    <a href="https://www.springer.com/in/book/9789811083594">https://www.springer.com/in/book/9789811083594</a>
+                </div>
             </div>
         </>
     )
