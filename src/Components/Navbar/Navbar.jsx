@@ -1,4 +1,4 @@
-import { BrowserRouter, Lin, Link, Linkk } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ArrowDown } from "../../Icons/ArrowDown";
 //import link in react
 // import { Link } from "react-router-dom";
