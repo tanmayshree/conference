@@ -15,8 +15,8 @@ import StudentCommittee from './Components/Student Committee/StudentCommittee';
 function App() {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <div className="App">
           <Hero />
           <Routes>
@@ -24,14 +24,14 @@ function App() {
             <Route exact path="/advisory-board" element={<AdBoard />} />
             {/* All routes */}
             <Route exact path="/important-dates" element={<ImportantDates />} />
-            <Route exact path="/tpc" element={<TPC/>} />
-            <Route exact path="/oc" element={<OrgCom/>} />
-            <Route exact path="/sc" element={<StudentCommittee/>} />
+            <Route exact path="/tpc" element={<TPC />} />
+            <Route exact path="/oc" element={<OrgCom />} />
+            <Route exact path="/sc" element={<StudentCommittee />} />
             <Route path="*" element={<Error404 />} />
           </Routes>
         </div>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </>
 
   );

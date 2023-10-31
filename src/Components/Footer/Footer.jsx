@@ -5,14 +5,20 @@ const Footer = () => {
         <>
             <footer className="footer p-10 bg-base-200 text-base-content">
                 <nav>
-                    <header className="footer-title">Contact</header>
-                    <h2>Dr. Brajesh Kumar Singh</h2>
-                    <p> General Chair, ICDIS-2023 <br />
+                    <header className="footer-title text-2xl">Contact</header>
+                    <h2 className='font-bold text-lg'>Dr. Brajesh Kumar Singh</h2>
+                    <p className='italic'> General Chair, ICDIS-2023 <br />
                         Professor & Head, Department of Computer Science & Engineering <br />
-                        Raja Balwant Singh Engineering Technical Campus, Bichpuri, Agra, India <br />
-                        <span className="footer-title">E-mail:</span> <a className="link link-hover">icdis2023@gmail.com</a> <br />
-                        Mobile: +91-8410278878, +91-9720758021
+                        Raja Balwant Singh Engineering Technical Campus, Bichpuri, Agra, India
                     </p>
+                    <br />
+                    <header className="footer-title m-0">E-mail:</header>
+                    <a className="link link-hover" href='mailto:icdis2023@gmail.com'>icdis2023@gmail.com</a> <br />
+                    <header className="footer-title m-0">Mobile:</header>
+                    <span className="flex gap-2">
+                        <a href='tel:000' className="link link-hover">+91-8410278878</a>,
+                        <a href='tel:000' className="link link-hover">+91-9720758021</a>
+                    </span>
                 </nav>
                 <nav>
                     <header className="footer-title">Committee</header>
