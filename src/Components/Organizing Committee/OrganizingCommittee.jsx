@@ -1,6 +1,6 @@
 import Heading from '../Heading/Heading'
 import './OrgCom.css'
-export const OrgCom = () => {
+export const OrganizingCommittee = () => {
   return (
     <div>
     <Heading title="Organising Committee" />

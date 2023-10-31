@@ -72,7 +72,9 @@ export default function Navbar() {
                                     } else {
                                         return (
                                             <li key={index}>
-                                                <summary>{item.name}</summary>
+                                                <Link to={item.link}>
+                                                    <summary>{item.name}</summary>
+                                                </Link>
                                             </li>
                                         )
                                     }

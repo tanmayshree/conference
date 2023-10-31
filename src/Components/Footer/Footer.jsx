@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -22,25 +23,25 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <header className="footer-title">Committee</header>
-                    <a className="link link-hover">Advisory Board</a>
-                    <a className="link link-hover">Technical Program Committee</a>
-                    <a className="link link-hover">Organising Committee</a>
-                    <a className="link link-hover">Student Committee</a>
+                    <Link to="/advisory-board" className="link link-hover">Advisory Board</Link>
+                    <Link to="/technical-program-committee" className="link link-hover">Technical Program Committee</Link>
+                    <Link to="/organizing-committee" className="link link-hover">Organizing Committee</Link>
+                    <Link to="/student-committee" className="link link-hover">Student Committee</Link>
                     <br />
                     <header className="footer-title">Schedule</header>
-                    <a className="link link-hover">Important Dates</a>
-                    <a className="link link-hover">Venue</a>
-                    <a className="link link-hover">How to Reach</a>
+                    <Link to="/important-dates" className="link link-hover">Important Dates</Link>
+                    <Link to="/venue" className="link link-hover">Venue</Link>
+                    <Link to="/how-to-reach" className="link link-hover">How to Reach</Link>
                 </nav>
                 <nav>
                     <header className="footer-title">Author</header>
-                    <a className="link link-hover">Call For Papers</a>
-                    <a className="link link-hover">Paper Submission</a>
-                    <a className="link link-hover">Registration</a>
-                    <a className="link link-hover">Proceedings</a>
+                    <Link to="/call-for-papers" className="link link-hover">Call For Papers</Link>
+                    <Link to="/paper-submission" className="link link-hover">Paper Submission</Link>
+                    <Link to="/registration" className="link link-hover">Registration</Link>
+                    <Link to="/proceedings" className="link link-hover">Proceedings</Link>
                     <br />
                     <header className="footer-title">Keynote Speaker</header>
-                    <a className="link link-hover">Our Speakers</a>
+                    <Link to="/our-speaker" className="link link-hover">Our Speakers</Link>
                 </nav>
                 <nav>
                     <iframe className="border border-black" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.4510541240484!2d77.89076267540678!3d27.173556848832405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397389e2ef0289e1%3A0xd0ae673f572e6613!2sRaja%20Balwant%20Singh%20Engineering%20Technical%20Campus%2C%20Bichpuri%2C%20Agra!5e0!3m2!1sen!2sin!4v1698733098353!5m2!1sen!2sin" width="500" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />

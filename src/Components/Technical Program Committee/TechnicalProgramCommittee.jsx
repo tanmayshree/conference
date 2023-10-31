@@ -1,6 +1,6 @@
 import Heading from "../Heading/Heading";
 import "./TPC.css";
-export const TPC = () => {
+export const TechnicalProgramCommittee = () => {
   return (
     <div>
     <Heading title="Technical Program Committee" />

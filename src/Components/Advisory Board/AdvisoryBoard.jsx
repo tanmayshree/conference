@@ -3,7 +3,7 @@ import "./AdBoard.css"
 import date from "./../../assets/date.jpg"
 
 
-export const AdBoard = () => {
+export const AdvisoryBoard = () => {
   return (
     <div>
       <Heading title="Advisory Board" />
