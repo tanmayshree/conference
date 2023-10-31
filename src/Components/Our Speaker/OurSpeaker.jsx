@@ -1,19 +1,57 @@
+import Heading from "../Heading/Heading";
 import "./OurSpeaker.css";
 import React from 'react'
 
 export default function OurSpeaker() {
     return (
-        <div>
-            <div className="card card-side bg-base-100 shadow-xl">
-                <figure><img src="/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" /></figure>
-                <div className="card-body">
-                    <h2 className="card-title">New movie is released!</h2>
-                    <p>Click the button to watch on Jetflix app.</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Watch</button>
+        <>
+            <Heading title="Our Speakers"></Heading>
+            <div className="grid grid-cols-2 gap-20 m-10 mx-32">
+                <div className="pt-2 card card-side bg-base-100 shadow-xl text-left">
+                    <figure className="w-1/2"><img src="https://images.squarespace-cdn.com/content/v1/5c5a48b7809d8e364b16c2bf/1596588103144-YDOUWGJ09KUD4SMJJD6A/company+profile+picture.jpg" alt="Movie" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Prof. Srikanta Patnaik</h2>
+                        <p>
+                            Director, International Relation & Publication, <br />
+                            Professor, Department of Computer Science and Engineering, <br />
+                            SOA University, Bhubaneswar, India-751030
+                        </p>
+                    </div>
+                </div>
+                <div className="pt-2 card card-side bg-base-100 shadow-xl text-left">
+                    <figure className="w-1/2"><img src="https://images.squarespace-cdn.com/content/v1/5c5a48b7809d8e364b16c2bf/1596588103144-YDOUWGJ09KUD4SMJJD6A/company+profile+picture.jpg" alt="Movie" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Prof. Srikanta Patnaik</h2>
+                        <p>
+                            Director, International Relation & Publication, <br />
+                            Professor, Department of Computer Science and Engineering, <br />
+                            SOA University, Bhubaneswar, India-751030
+                        </p>
+                    </div>
+                </div>
+                <div className="pt-2 card card-side bg-base-100 shadow-xl text-left">
+                    <figure className="w-1/2"><img src="https://images.squarespace-cdn.com/content/v1/5c5a48b7809d8e364b16c2bf/1596588103144-YDOUWGJ09KUD4SMJJD6A/company+profile+picture.jpg" alt="Movie" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Prof. Srikanta Patnaik</h2>
+                        <p>
+                            Director, International Relation & Publication, <br />
+                            Professor, Department of Computer Science and Engineering, <br />
+                            SOA University, Bhubaneswar, India-751030
+                        </p>
+                    </div>
+                </div>
+                <div className="pt-2 card card-side bg-base-100 shadow-xl text-left">
+                    <figure className="w-1/2"><img src="https://images.squarespace-cdn.com/content/v1/5c5a48b7809d8e364b16c2bf/1596588103144-YDOUWGJ09KUD4SMJJD6A/company+profile+picture.jpg" alt="Movie" /></figure>
+                    <div className="card-body">
+                        <h2 className="card-title">Prof. Srikanta Patnaik</h2>
+                        <p>
+                            Director, International Relation & Publication, <br />
+                            Professor, Department of Computer Science and Engineering, <br />
+                            SOA University, Bhubaneswar, India-751030
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
