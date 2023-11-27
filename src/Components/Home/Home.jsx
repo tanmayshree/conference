@@ -23,8 +23,9 @@ const Home = () => {
 
                 </Carousel>
             </div>
+
             <Heading title="Welcome to 5th ICDIS-2023" />
-            <div className="flex mx-10 gap-32">
+            <div className="welcome-box mx-8 md:gap-16">
                 <p className="text-left text-base">
                     International Conference on Data and Information Sciences (ICDIS-2023), to be held at Raja Balwant Singh Engineering Technical Campus, Bichpuri, Agra, India during June 16-17, 2023. 
                     <br /><br />
@@ -32,17 +33,17 @@ const Home = () => {
                     <br /><br />
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore nam numquam pariatur temporibus neque quod, nostrum eligendi esse. Nostrum unde debitis animi numquam magni est neque modi nesciunt id odio dolore, nam porro, quas alias quaerat officiis reiciendis dolorum aperiam molestias? Quia quo libero corrupti aspernatur repellendus a fuga ipsum.
                     <br /><br />
-                    We encourage healthy competition to enable our students to find a place in today's competitive world. For more details, http://fetrbs.org/index.aspx
+                    We encourage healthy competition to enable our students to find a place in today's competitive world. For more details, <a href="http://fetrbs.org/index.aspx">http://fetrbs.org/index.aspx</a>
                 </p>
-                <img src={welcomeIcon} alt="" className="w-1/3 mr-16"/>
+                <img src={welcomeIcon} alt="" className="welcome-img"/>
             </div>
 
             <ImportantDates/>
             <Bullets/>
 
             <Heading title="ICDIS History" />
-            <div className="mx-16 grid grid-cols-2 text-left">
-                <div className="">
+            <div className="mx-10 grid md:grid-cols-2 text-left">
+                <div className="mt-2 mb-5">
                     <h2 className="text-2xl">ICDIS 2017</h2>
                     <p><strong>First version of ICDIS</strong> was organized at Indira Gandhi National Tribal University, Amarkantak, Madhya-Pradesh, India, during November 14-15, 2017. ICDIS-2017 received around 230 submissions from around 550 authors of different countries such as India, Malaysia, Bangladesh, Sri Lanka and many more. On the basis of quality reviews, 59 high quality papers were selected for publication in two proceedings volumes, with an acceptance rate of 25.6%. All papers of ICDIS-2017 have been published in two volumes under Book Series "Lecture Notes in Networks and Systems", titled as "Advances in Data and Information Sciences".</p>
                     <a href="https://www.springer.com/in/book/9789811083594">https://www.springer.com/in/book/9789811083594</a>

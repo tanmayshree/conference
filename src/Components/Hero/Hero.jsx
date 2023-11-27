@@ -7,13 +7,13 @@ const Hero = () => {
             </div>
             <div className="grid items-center">
                 <div>
-                    <p className="md:text-2xl font-mono font-bold">5th International Conference on Data & Information Sciences (ICDIS-2023)</p>
+                    <p className="md:text-2xl font-mono font-bold mt-4 mb-2">5th International Conference on Data & Information Sciences (ICDIS-2023)</p>
                 </div>
-                <div className="select-none justify-center text-md text-white bg-cyan-950 rounded-2xl mx-auto">
-                    <div className="px-3 py-2">June 16-17, 2023</div>
+                <div className="md:my-1 select-none justify-center text-md text-white bg-cyan-950 rounded-md mx-auto">
+                    <div className="px-2 py-2">January 8-9, 2024</div>
                 </div>
                 <div>
-                    <p className="text-lg text-cyan-900 font-medium">Raja Balwant Singh Engineering Technical Campus, Bichpuri,
+                    <p className="text-sm md:text-normal mt-1 text-cyan-900 font-normal">Raja Balwant Singh Engineering Technical Campus, Bichpuri,
                         Agra, Uttar Pradesh, INDIA</p>
                 </div>
             </div>

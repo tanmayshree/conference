@@ -44,7 +44,7 @@ const Footer = () => {
                     <Link to="/our-speaker" className="link link-hover">Our Speakers</Link>
                 </nav>
                 <nav>
-                    <iframe className="border border-black" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.4510541240484!2d77.89076267540678!3d27.173556848832405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397389e2ef0289e1%3A0xd0ae673f572e6613!2sRaja%20Balwant%20Singh%20Engineering%20Technical%20Campus%2C%20Bichpuri%2C%20Agra!5e0!3m2!1sen!2sin!4v1698733098353!5m2!1sen!2sin" width="500" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
+                    <iframe title='xyz' className="border border-black" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.4510541240484!2d77.89076267540678!3d27.173556848832405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397389e2ef0289e1%3A0xd0ae673f572e6613!2sRaja%20Balwant%20Singh%20Engineering%20Technical%20Campus%2C%20Bichpuri%2C%20Agra!5e0!3m2!1sen!2sin!4v1698733098353!5m2!1sen!2sin" width="400" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
                 </nav>
             </footer>
             <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
